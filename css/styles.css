@@ -60,7 +60,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  --bs-body-font-family:'Cormorant Garamond', serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -110,6 +110,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, .h1 {
@@ -11563,7 +11564,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/bg-masthead.jpg");
+  background:  url("../assets/img/crowd-people.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11574,9 +11575,9 @@ body {
 .masthead h1, .masthead .h1 {
   font-family: 'Roboto', sans-serif;
     font-size: 2.5rem;
-  line-height: 2.5rem;
-  letter-spacing: 0.8rem;
-  color:#ffffff;
+  line-height: 0.5rem;
+  letter-spacing: 1px;
+  color:#C50303;
 }
 .masthead h2, .masthead .h2 {
   max-width: 20rem;
@@ -11584,8 +11585,8 @@ body {
 }
 @media (min-width: 768px) {
   .masthead h1, .masthead .h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 6.5rem;
+    line-height: 6.5rem;
   }
 }
 @media (min-width: 992px) {
