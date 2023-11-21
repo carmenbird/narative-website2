@@ -118,7 +118,7 @@ h1, .h1 {
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 2.5rem;
+    font-size: 10rem;
   }
 }
 
@@ -127,7 +127,7 @@ h2, .h2 {
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 8rem;
   }
 }
 
@@ -136,7 +136,7 @@ h3, .h3 {
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 1.75rem;
+    font-size: 10rem;
   }
 }
 
@@ -11699,3 +11699,4 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
