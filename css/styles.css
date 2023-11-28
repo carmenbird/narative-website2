@@ -60,7 +60,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --bs-body-font-family:'Cormorant Garamond', serif;
+  --bs-body-font-family:'Roboto', sans-serif;
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
@@ -240,11 +240,11 @@ sup {
 }
 
 a {
-  color: #64a19d;
+  color: #C50303;
   text-decoration: underline;
 }
 a:hover {
-  color: #50817e;
+  color: #C50303;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11480,8 +11480,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #C50303;
+  border: 0.5px solid #c50303;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11518,10 +11518,12 @@ body {
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: #C50303;
+    font-family:  'Pinyon Script', cursive;
   }
   #mainNav .nav-link:active {
-    color: #fff;
+    color: #C50303;
+    font-family:  'Pinyon Script', cursive;
   }
   #mainNav.navbar-shrink {
     background-color: #fff;
@@ -11535,15 +11537,18 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #C50303
+    ;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #C50303;
+    font-family: 'Pinyon Script';
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #C50303
+    ;
   }
 }
 
@@ -11564,7 +11569,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background:  url("../assets/img/crowd-people.JPG");
+  background:  url("../assets/img/dipchip\ 2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11642,7 +11647,7 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("../assets/img/bg-signup.jpg");
+  background:url("../assets/img/specialoffer.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11652,7 +11657,7 @@ body {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Roboto', sans-serif;
     font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -11699,4 +11704,6 @@ body {
 .footer {
   padding: 5rem 0;
 }
+
+
 
