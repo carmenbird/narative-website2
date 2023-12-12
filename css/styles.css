@@ -7958,7 +7958,7 @@ textarea.form-control-lg {
 
 .text-black-50 {
   --bs-text-opacity: 1;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: 000000(0, 0, 0, 0.5) !important;
 }
 
 .text-white-50 {
@@ -11581,10 +11581,53 @@ body {
 }
 
 
+.masthead-beauty {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background:  url("../assets/img/topjewellers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  
+}
+
+.masthead-transport {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background:  url("../assets/img/topjewellers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  
+}
+
+
+.masthead-entertainment {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background:  url("../assets/img/topjewellers.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  
+}
+
 .masthead h1, .masthead .h1 {
   font-family: 'Roboto', sans-serif;
-    font-size: 4rem;
-  line-height: 0.5rem;
+    font-size: 3rem;
+  line-height: 5rem;
   letter-spacing: 1px;
   color:#C50303;
 }
@@ -11595,7 +11638,7 @@ body {
 @media (min-width: 868px) {
   .masthead h1, .masthead .h1 {
    
-    line-height: 15rem;
+    line-height: 5rem;
   }
 }
 @media (min-width: 992px) {
